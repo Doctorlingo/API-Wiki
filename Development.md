@@ -5,11 +5,11 @@ This is how we get set up for the API to do local development.
 First you have to have a postgres database running, then you start the API project.
 
 ----
-### Start a local postgres 11 database
+### Start a local postgres 12 database
 
 #### Windows
 
-Download postgres 11: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+Download postgres 12: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 - Install default everything
 - We don't need Stack Builder
@@ -24,13 +24,7 @@ Download postgres.app: https://postgresapp.com/downloads.html
 
 Once you start postgres.app the first time it begins with a default Postgres 12 database.
 
-Click the sidebar button in the bottom left, and add a new Postgres 11 database:
-
-![image](uploads/9259b4ebf5c3b47993765276dc4575c7/image.png)
-
-- Add a new Postgres 11 database, default for all values
-- Hit the minus icon to remove the Postgres 12 database to reduce confusion
-- Once you have a running Postgres 11 database, move onto the "Add the doctorlingo database and user" section
+- Once you have a running Postgres 12 database, move onto the "Add the doctorlingo database and user" section
 
 ----
 
